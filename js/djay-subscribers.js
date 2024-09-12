@@ -41,7 +41,7 @@ let responseBody = {
     },
     original_purchase_date: '2020-06-23T08:21:30Z',
     original_app_user_id: '$RCAnonymousID:347d452d86d24ebf8c7e60c594ddddac',
-    last_seen: new Date().toISOString()
+    last_seen: time.toISOString()
   }
 }
 console.log('$responseBody : ', responseBody)
