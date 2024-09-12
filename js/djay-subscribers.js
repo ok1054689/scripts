@@ -3,6 +3,9 @@ let url = $request.url
 console.log(
   `djay-subscriptions =================================================`
 )
+console.log(
+  '$response : ',$response
+)
 
 // 参考https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Script.conf
 
