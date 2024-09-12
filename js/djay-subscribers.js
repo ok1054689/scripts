@@ -18,7 +18,7 @@ let responseBody = {
     subscriptions: {
       rc_promo_pro_three_month: {
         original_purchase_date: '2024-01-15T08:24:16Z',
-        expires_date: '2094-04-16T08:24:16Z',
+        expires_date: '2029-04-16T08:24:16Z',
         is_sandbox: false,
         refunded_at: null,
         store_transaction_id: '3eae2667447c6182cf63f93226945c1d',
@@ -36,7 +36,7 @@ let responseBody = {
         grace_period_expires_date: null,
         purchase_date: '2024-01-15T08:24:16Z',
         product_identifier: 'rc_promo_pro_three_month',
-        expires_date: '2094-04-16T08:24:16Z'
+        expires_date: '2029-04-16T08:24:16Z'
       }
     },
     original_purchase_date: '2020-06-23T08:21:30Z',
