@@ -3,13 +3,10 @@ let url = $request.url
 console.log(
   `djay-subscriptions =================================================`
 )
-console.log(
-  '$response : ',$response
-)
+console.log('$response : ', $response)
 
 // 参考https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Script.conf
-
-$done({
+let responseBody = {
   body: JSON.stringify({
     request_date_ms: new Date().getTime(), //1726151502447
     request_date: new Date().toISOString(), //"2024-09-12T14:31:42Z"
@@ -48,4 +45,7 @@ $done({
       last_seen: new Date().toISOString()
     }
   })
-})
+}
+console.log('$responseBody : ', responseBody)
+
+$done({ status: 200, body: responseBody })
