@@ -4,11 +4,11 @@ console.log(
   `djay-subscriptions =================================================`
 )
 console.log('$response : ', $response)
-
+let time = new Date()
 // 参考https://raw.githubusercontent.com/Tartarus2014/Loon-Script/master/Script.conf
 let responseBody = {
-  request_date_ms: new Date().getTime(), //1726151502447
-  request_date: new Date().toISOString(), //"2024-09-12T14:31:42Z"
+  request_date_ms: time.getTime(), //1726151502447
+  request_date: time.toISOString(), //"2024-09-12T14:31:42Z"
   subscriber: {
     non_subscriptions: {},
     first_seen: '2024-01-09T18:47:44Z',
